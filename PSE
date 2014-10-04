@@ -1,0 +1,224 @@
+
+
+Project Name	
+Students Attendance System
+
+Team Name
+	
+Creative KSD
+
+Team Member	
+Kumar Simkhada
+Sujan Ghimire
+Deepesh Gautam
+
+
+
+
+   Table of contents
+
+1.	Introduction
+
+2.	User requirements
+2.1	User Group Definitions
+2.2	Use cases and Primary Actors
+2.3	Use case Diagram
+
+3.	System Architecture
+             3.1 Overview of the system
+             3.2 Main module of the system 
+
+     4. Non-functional system requirements
+
+     5. User-Interface
+
+     6. Summary
+
+ 
+
+1.	Introduction
+
+Student attendances and Homework tracker is software to operate with all the detail about a student to corresponding teacher. All the students and teacher will sign in through their user accounts and teacher gets right to post documents and home works. The main feature of this software is to avoid the pen and paper that every teacher provides at the beginning of the class for attendances. All the other features can be used everywhere but attendance needs to be activated by specific teacher at the beginning of the class and it can be accessed only from the class. Student can provide their presence by signing in by their accounts.
+
+Teacher can limit the attendance period like beginning half an hour or something like that so that late students won’t be able to be presence. It will analyze all the student activities from homework and attendances then provide a concluded data to the teacher. It will work as a group for every specific course where “teacher and student” or “student and  student” can communicate about the course and so on. Communication between teacher and student can be private or public whichever way they want but between students will be accessible by teacher. 
+
+2.	User group requirements
+2.1 User group definition
+
+Users	Definition	Detail Definition
+
+Administrator	
+School/ University Administration	
+Administrator can access every student and teachers account to analyze students as well as teachers’ contribution towards the course. They can make changes in Homework grading, Examination right according to the students’ attendances and all activities. They provide the user account to the corresponding teachers and students.
+
+User/ Teacher	
+Specific teacher of the course	
+Teacher will sign up for the courses which they going to teach. Then they will get access to post course documents, homework, and to handle the student attendance. Teacher have right to confirm the student's enrollment. After the students’ sign up teacher get detail information about students’ study history. For example, courses completed with grades. By the help of this teacher can analyze students ability and he/she will make study plan for the new course. Teacher can prepare different study groups from their previous grades and post more helps by focusing the weak students.
+
+User/ Students	
+Students those are taking participation	
+Student will request for course access according to their interest and background.  After teachers’ approval student can view the course documents, do and submit homework and get connected to teacher and their classmates. 
+
+
+2.2 Use Cases and primary actors 
+
+
+Actor	Use Cases
+Administrator	1.	Create Accounts
+2.	Delete Accounts
+3.	Announcements
+4.	Course Status
+5.	Community
+Teacher	6.	Sign in
+7.	Add courses
+8.	Confirm Students
+9.	Documents
+10.	Homework
+11.	Confirm Students Attendance
+12.	Student Status
+13.	Community
+Student	14.	Sign in
+15.	Request courses
+16.	Documents
+17.	Homework
+18.	Attendance
+19.	Community
+20.	Group formations 
+21.	Sign out 
+
+
+
+
+
+
+
+
+
+
+2.3 Use case Diagram
+
+
+ 
+
+
+
+
+
+User case ID	1
+User case name 	Attendance 
+Created by 	Kumar Simkhada 
+Date created 	September 27,2014
+Actor 	Student 
+Description	The student signed In to the attendance system to confirm his attendance  
+Preconditions	1.Student has signed In
+2.The student can see the list of the subjects
+ 
+Postconditions 	1.The student selects the subject that he wants to do the attendance for.
+2.When student does the attendance ,his face will appear on the big screen of the classroom ,so that the teacher can confirm. 
+Normal flow	1.	First of all, student have to enter into the class.
+2.	Student opens the applications.
+3.	Sign In button appears on the starting page of the software.
+4.	Selects the respective subject .
+5.	As soon as he does the attendance, his protograph will be automatically shown in the big screen of the classroom.
+6.	 And, teacher will have to confirm the attendance.
+Alternative flow 	     1.Attendance without attending the class 
+1.1. Teacher will see the picture, and all the relevant informations, if the students are doing the attendance without coming the class.
+1.2.  Teacher might call students on the  phone number that is recorded in the database to know the situation. 
+1.3. Evaluations also based upon students attendance history
+1.4 Also, additional homework will be the part of the attendance for  those who missed the classes.
+   
+Exceptions 	1.Enrollment is full.
+2.No network coverage ie out from the indoor positioninig system.
+3.If the student do not provide his/her necessary informations.
+4.Bad records/history of the students
+Requirements	    1. Student can un confirm the attendance .
+     2.The student should know at least the name of the teacher and the             subject he wish to attend for. 
+Assumptions 	    1.Students can see the teachers and administrators infos.
+
+ 
+
+Case Scenario: Attendance 
+
+  
+
+
+
+3.System Architecture
+
+
+3.1 Overview of the system:
+
+Students attendance and homework tracker is an organization based software. It has  limited uses and limited uses area. It will be operated by one particular School or University. Administration handles all users accounts and main functionality for example creation of course and specific teacher for different courses. Secondly teacher will have second level rights to accept students requests, to active and deactive attendance, to limit attendance time and area.
+Third level users are students who have reading rights more than writing.  Students will add courses, gets documents, announcements, assignments and reply assignments.  Attendance system has couple of automatic system. When student adds course to his/her account with user account and mobile no. As teacher starts attendance system, system will track mobile no and show students picture in teachers computer and complete attendance.
+
+
+
+3.2 Main modules and their functions
+
+●	Student attendance system is an organization based software which has limited users.
+●	Inside the software different courses will make different workplaces, for example particular course area will only be able to get its own attendance
+●	According to the user rights administration and teacher will be able to do read and write and students will mostly get reading rights. For example Administration can create and delete users accounts. Teacher can accept and decline or delete students from his/her courses but students will provide attendance and give their participation.
+
+
+
+
+
+
+
+
+4. Non-functional System Requirements
+
+4.1 Usability
+
+Our software is totally based in our tuubi which is in our daily use. BUt it has couple of more features which has huge importance. Our project intends to solve the problems that has not been solved by Tuubi. From our own experience Tuubi needs one kind of training to get start with it but our software will be easiest like facebook. All user will easily find everything what they want. For example enrolments of courses and certificates. Our software will provide those options in the front page directly. Then, student can easily enrol the courses and get everything what they want. 
+ In case of teacher, when they get enrolments request as a notification at the same time it will provide the students history and group option where does teacher want to put him/ her.
+The attendance system will be operated by a single click from teacher and students need to save their mobile no or need to have key with them. Teachers computer will be attached with bluetooth and will read students mobile or the key and confirm his/her attendance. 
+
+
+5.2 Reliability
+
+As an organizational software, organization’s IT department will control everything. They will provide username and password and after first login user can change it as they want. After that IT department or none can see their password (will be encrypted) or their private mails but in case of user request by person they can provide link to change password. This conditional only applies when user can match his password. 
+
+
+5.3 Efficiency 
+
+When front page provides all options what user needs then efficiency level will rise easily. I want to focus in the efficiency of the attendance tool. With single click it will start work and according to the provided time period will stop itself. When teacher wants can see all detail in another click. Teacher doesn’t need to carry attendance paper and students doesn’t need to pass it in whole class. None can cheat teacher because after reading mobile or the key it will show students picture. Same like this every things will be efficient. 
+
+More system requirements
+●	Flexibility
+●	Backup
+●	Accessibility
+●	Privacy
+●	Availability
+●	Security
+●	Quality
+●	Multiple uses
+
+5.  User interface
+User interface will be different for different users. Administration, teachers and students will get different different user interface according to their rights. 
+My following description will tell us how does our software looks like. 
+In the very first page
+1.	Language bar to select required language
+2.	Sign up can’t be done by users so that there will be LOGIN only for the main window
+3.	After login, logout will locate at the top right corner.
+
+Front page (Top navigation bar which will appear in every window)
+1.	Home page (to get back to first)
+2.	Courses (List of courses that a student is reading and a teacher is teaching)
+3.	Tools (For teacher handling the students request and edit student groups and for students to see study progress and request new courses)
+4.	Contact (Contact Info of entire School/ University and their staffs)
+5.	Email (Organizational mail service)
+Sidebar (Left side)
+      1. Profile ( To give the detail info about the logged-in user)
+      2. Status ( Shows the current status Present or Absent)
+      3. Attendance Timeline ( To view the previous attendances according to the calendar)
+      4. Attendance Report ( To view the summary of absence or presence either by 
+         Number of days or by percentage.)
+       5. Assignment Report (To view the overall  assignment report)
+
+
+
+  6. Summary
+             With the help of this Students Attendance System, it will eliminate the manual system of keeping the attendance of every student on each day. As the attendance report will be created with this system by using the everyday data of attendance, the teachers can send the report to the guardian of the respective students. 
+             As well as the teacher can suggest the students or assign the extra assignment for those students whose attendance percentage is low. Infact, a lot of benefit can be taken by using this system.
+
